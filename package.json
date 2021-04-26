@@ -1,0 +1,13 @@
+{
+  "name": "openapi3-ts-codegen",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "core:lint": "lerna run lint --scope=core"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
